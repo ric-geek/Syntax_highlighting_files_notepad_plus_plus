@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NotepadPlus>
+    <UserLang name="Elixir" ext="ex exs" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        
+        <KeywordLists>
+            <Keywords name="Comments">00# 00## 00### 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <!-- Delimiters 0 -->
+            <Keywords name="Operators1"></Keywords>
+            <!-- Delimiters 1 -->
+            <Keywords name="Operators2"></Keywords>
+            <!-- Delimiters 2 -->
+            <Keywords name="Operators3"></Keywords>
+            <!-- Delimiters 3 -->
+            <Keywords name="Operators4"></Keywords>
+            <!-- Delimiters 4 -->
+            <Keywords name="Operators5"></Keywords>
+            <!-- Delimiters 5 -->
+            <Keywords name="Operators6"></Keywords>
+            <!-- Delimiters 6 -->
+            <Keywords name="Operators7"></Keywords>
+            <!-- Delimiters 7 -->
+            <Keywords name="Operators8"></Keywords>
+            <Keywords name="Folder, open"></Keywords>
+            <Keywords name="Folder, close"></Keywords>
+            <Keywords name="Keywords1">after alias and case catch cond def defdelegate defexception defimpl defmacro defmacrop defmodule defoverridable defp defprotocol defstruct do else false fn for if import nil not or quote raise receive require rescue true try unless unquote unquote_splicing use when with</Keywords>
+            <Keywords name="Keywords2">@type @typep @opaque @spec @callback @macrocallback @doc @moduledoc @typedoc @dialyzer @deprecated @behaviour @impl @enforce_keys @derive @before_compile @after_compile @on_definition @on_load @external_resource @vsn</Keywords>
+            <Keywords name="Keywords3">abs apply binary_part bit_size byte_size div elem hd is_atom is_binary is_bitstring is_boolean is_float is_function is_integer is_list is_map is_number is_pid is_port is_reference is_tuple length map_size node not self tl tuple_size</Keywords>
+            <Keywords name="Keywords4">++ -- && || == != === !== =~ <= >= < > <> ^ & | + - * / . = !</Keywords>
+            <Keywords name="Keywords5"></Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+        </KeywordLists>
+        
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBERS" fgColor="FF8000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="KEYWORDS1" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="KEYWORDS2" fgColor="800080" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="KEYWORDS3" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="KEYWORDS4" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="KEYWORDS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATORS" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DELIMITERS1" fgColor="800080" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="DELIMITERS2" fgColor="800080" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENTS LINENUMBER" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+        </Styles>
+        
+        <CustomParams>
+            <Param name="IsCaseSensitive" value="yes" />
+            <Param name="AllowFoldOfComments" value="no" />
+            <Param name="FoldCompact" value="no" />
+            <Param name="ForcePureLC" value="0" />
+            <Param name="DecimalSeparator" value="0" />
+        </CustomParams>
+        
+        <UserDefinedSymbols>
+            <Symbol name="Fold in code, open" />
+            <Symbol name="Fold in code, middle" />
+            <Symbol name="Fold in code, close" />
+            <Symbol name="Fold in comment, open" />
+            <Symbol name="Fold in comment, middle" />
+            <Symbol name="Fold in comment, close" />
+        </UserDefinedSymbols>
+        
+        <AutoComplete>
+            <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar="" />
+            <KeyWord name="def" />
+            <KeyWord name="defmodule" />
+            <KeyWord name="defp" />
+            <KeyWord name="defmacro" />
+            <KeyWord name="defmacrop" />
+            <KeyWord name="defstruct" />
+            <KeyWord name="defprotocol" />
+            <KeyWord name="defimpl" />
+            <KeyWord name="if" />
+            <KeyWord name="unless" />
+            <KeyWord name="case" />
+            <KeyWord name="cond" />
+            <KeyWord name="with" />
+            <KeyWord name="for" />
+            <KeyWord name="receive" />
+            <KeyWord name="try" />
+            <KeyWord name="fn" />
+        </AutoComplete>
+        
+        <UserDefineFold>
+            <open>(?x)
+                ^\s* (?:def|defp|defmacro|defmacrop|defmodule|defprotocol|defimpl|defstruct|defexception|defdelegate|defcallback|defmacrocallback|@spec|@type|@typep|@opaque|@callback|@macrocallback)\b
+                | \b(?:if|unless|case|cond|with|for|receive|try|fn)\b
+                | \b(?:do|->)\s*$
+                | ^\s* @(?:moduledoc|doc|typedoc)\s+ """
+            </open>
+            <middle>
+                (?x)
+                ^\s* (?:else|catch|after|rescue)\b
+                | \|\s*$
+                | ^\s* @(?:moduledoc|doc|typedoc)\s+ """
+            </middle>
+            <close>
+                (?x)
+                ^\s* end\b
+                | ^\s* """\s*$
+            </close>
+        </UserDefineFold>
+        
+        <LexerStyles>
+            <LexerType name="Notepad++ UDL" desc="User Defined Language" ext="">
+                <Lexer name="Elixir" desc="Elixir Programming Language">
+                    <WordsStyle name="COMMENT" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+                    <WordsStyle name="COMMENT LINE" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+                    <WordsStyle name="NUMBER" fgColor="FF8000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+                    <WordsStyle name="KEYWORD" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" />
+                    <WordsStyle name="STRING" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+                    <WordsStyle name="CHARACTER" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+                    <WordsStyle name="OPERATOR" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+                    <WordsStyle name="ATOM" fgColor="800080" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+                    <WordsStyle name="REGEX" fgColor="FF00FF" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+                </Lexer>
+            </LexerType>
+        </LexerStyles>
+    </UserLang>
+</NotepadPlus>
