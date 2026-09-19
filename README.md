@@ -1,2 +1,3 @@
-# Elixir_syntax_highlighting
-Syntax highlighting file for Notepad++
+# Syntax highlighting files languages not supported by Notepad++
+- Elixir
+- Ocaml
